@@ -44,14 +44,7 @@
   },
   "jest": {
     "preset": "jest-expo",
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "**/*.{js,jsx}",
-      "!**/coverage/**",
-      "!**/node_modules/**",
-      "!**/babel.config.js",
-      "!**/jest.setup.js"
-    ]
+    "collectCoverage": false
   },
   "private": true
 }
