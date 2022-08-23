@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Button Snapshot Search List renders correctly 1`] = `null`;
+
+exports[`Search List Snapshot Search List renders correctly 1`] = `null`;
