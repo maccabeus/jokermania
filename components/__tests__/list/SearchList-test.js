@@ -8,7 +8,7 @@ import SearchList from '../../list/SearchList';
 describe("Search List Snapshot", () => {
 
     const scheme = jest.fn();
-    let lightScheme = scheme.mockRejectedValue("light");
+    let lightScheme = scheme.mockReturnValue("light");
     let currentScheme = null;
     let searchResult = [];
 
@@ -33,7 +33,7 @@ describe("Search List Snapshot", () => {
 
     afterAll(() => {
         currentScheme = null;
-        currentScheme = null;
+        searchResult = null;
     });
 });
 

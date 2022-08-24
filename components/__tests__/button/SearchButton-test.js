@@ -8,7 +8,7 @@ import SearchButton from '../../button/SearchButton';
 describe("Search Button Snapshot", () => {
 
   const scheme = jest.fn();
-  let lightScheme = scheme.mockRejectedValue("light");
+  let lightScheme = scheme.mockReturnValue("light");
   let currentScheme = null;
 
   beforeEach(() => {

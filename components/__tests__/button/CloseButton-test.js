@@ -8,7 +8,7 @@ import { jest } from '@jest/globals';
 describe("Close button Test", () => {
 
   const scheme = jest.fn();
-  let lightScheme = scheme.mockRejectedValue("light");
+  let lightScheme = scheme.mockReturnValue("light");
   let currentScheme = null;
 
   beforeEach(() => {
